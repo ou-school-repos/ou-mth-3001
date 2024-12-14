@@ -1,1 +1,10 @@
 *.pdf
+.*.xopp
+
+# macOS/backup files
+.~*
+._*
+~$*
+.DS_Store
+*.swp
+
