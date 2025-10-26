@@ -1,11 +1,15 @@
-.*.xopp
-*.png
-*.djvu
-
-# macOS/backup files
+# macos/backup files
 .~*
 ._*
 ~$*
-.DS_Store
+.ds_store
 *.swp
 
+
+# Binaies
+*.xopp
+*.png
+*.djvu
+
+# Autosave
+.*.xopp
