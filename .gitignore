@@ -1,4 +1,6 @@
 .*.xopp
+*.png
+*.djvu
 
 # macOS/backup files
 .~*
