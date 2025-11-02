@@ -1,0 +1,11 @@
+Putnam 1988 B-1
+
+x + y + (xy + 1) = ab
+
+x(y+1) + (y+1)   = ab
+
+(x+1)(y+1)       = ab
+
+Let x=a-1, y=b-1, and z=1.
+
+Then, both x and y are positive since a and b are integers greater than 1. Q.E.D.
