@@ -10,6 +10,7 @@
 *.xopp
 *.png
 *.djvu
+out-pdf/
 
 # Autosave
 .*.xopp

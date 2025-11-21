@@ -27,16 +27,16 @@ for f in $XOPP_FILES; do
 
 	# Create PDF and DJVU (binaries)
 	xournalpp "$f" -p "$fbase.pdf"
-	pdf2djvu "$fbase.pdf" -o "$fbase.djvu"
+	# pdf2djvu "$fbase.pdf" -o "$fbase.djvu"
 
 	touch -d @$fmoddate "$fbase.pdf"
-	touch -d @$fmoddate "$fbase.djvu"
+	# touch -d @$fmoddate "$fbase.djvu"
 
 	# Move binaries to folders in out-*/
 	mkdir -p out-pdf/
-	mkdir -p out-djvu/
+	# mkdir -p out-djvu/
 	mv "$fbase.pdf" out-pdf/
-	mv "$fbase.djvu" out-djvu/
+	# mv "$fbase.djvu" out-djvu/
 
 	# Create PNG binaries
 	xournalpp "$f" --export-png-dpi=72 -i "$fbase".png
